@@ -1,0 +1,245 @@
+.cart {
+  width: 100%;
+  background-color: #1C1919;
+  min-height: 100vh;
+  padding: 70px 0 140px;
+}
+
+.cart__message {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  /* or 125% */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+  margin: 200px auto 0;
+  max-width: 368px;  
+}
+
+.cart__message_hidden {
+  display: none;
+}
+
+.cart__header {
+  width: 1164px;
+  margin: 0 auto;
+  padding: 0 18px 80px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart__header_underlined {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.cart__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  /* identical to box height, or 131% */
+  
+  
+  color: #FFFFFF;
+}
+
+.cart__title_hidden {
+  opacity: 0;
+}
+
+.cart__close-icon {
+  background-image: url(../../images/close-icon.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.cart__close-icon:hover {
+  opacity: .7;
+}
+
+.cart__sum {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  
+  
+  color: #FFFFFF;
+  margin: 40px calc(((100% - 1200px) / 2) + 18px) 0;
+}
+
+.cart__sum_hidden {
+  display: none;
+}
+
+.cart__sum span {
+  color: #E5792B;
+  padding-left: 16px;
+}
+
+.cart__form {
+  width: 1164px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 0;
+}
+
+.cart__form_hidden {
+  display: none;
+}
+
+.cart__form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart__form-input {
+  width: 474px;
+  height: 60px;
+  outline: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.4);
+  background-color: #1C1919;
+  padding: 0 25px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.cart__form-message {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height, or 119% */
+  
+  
+  color: #FFFFFF;
+  margin: 12px 0 0;
+}
+
+.cart__form-message_err {
+  color: red;
+}
+
+.cart__form-submit {
+  width: 260px;
+  height: 60px;
+  background: #E5792B;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .3s;
+  border: none;
+  outline: none;
+}
+
+.cart__form-submit:hover {
+  opacity: .8;
+}
+
+.cart__form-submit_disabled {
+  cursor: default;
+  background-color: grey;
+}
+
+.cart__form-submit_disabled:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .cart {
+    padding: 30px 0 90px;
+  }
+  
+  .cart__header {
+    width: 272px;
+    padding: 0 8px 48px;
+  }
+
+  .cart__message {
+    font-size: 16px;
+    line-height: 24px;
+        
+    max-width: 240px;  
+  }
+  
+  .cart__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .cart__close-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .cart__sum {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px calc(((100% - 287px) / 2) + 8px) 0;
+  }
+  
+  .cart__sum span {
+    padding-left: 8px;
+  }
+  
+  .cart__form {
+    width: 287px;
+    flex-direction: column;
+    margin: 40px auto 0;
+  }
+  
+  .cart__form-field {
+    margin: 0 0 40px;
+  }
+  
+  .cart__form-input {
+    width: 251px;
+    height: 46px;
+    padding: 0 18px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .cart__form-message {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  
+  .cart__form-submit {
+    width: 287px;
+    height: 60px;
+    
+  }
+}

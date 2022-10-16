@@ -1,0 +1,121 @@
+.mobile-filter {
+  display: none;
+  position: relative;
+  width: 100vw;
+  z-index: 3;
+}
+
+.mobile-filter__close-btn {
+  width: 24px;
+  height: 24px;
+  background-image: url(../../images/close-icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  outline: none;
+  background-color: #1C1919;
+  position: fixed;
+  top: 30px;
+  right: calc((100vw - 287px) / 2);
+  
+}
+
+.mobile-filter__container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  background-color: #1C1919;
+}
+
+.mobile-filter__overlay {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  right: 0;
+  top: 0;
+  opacity: .6;
+  background-color: #1C1919;
+}
+
+.mobile-filter_opened {
+  display: block;
+}
+
+.mobile-filter__group {
+  padding: 25px 83px 43px 16px;
+  width: 179px;
+  border-radius: 8px;
+  margin: 110px 0 0 16px;
+}
+
+.mobile-filter__title {
+  margin: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  
+  
+  color: #fff;
+}
+
+.mobile-filter__checkbox-group {
+  width: 244px;
+  margin: 26px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mobile-filter__checkbox {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.mobile-filter__checkbox:hover {
+  opacity: .8;
+}
+
+.mobile-filter__checkbox-container {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  overflow: hidden; 
+  clip: rect(0 0 0 0);
+}
+
+.mobile-filter__checkbox-visible {
+  width: 18px;
+  height: 18px;
+  background-color: #1C1919;
+  display: inline-block; 
+  vertical-align: middle;
+  outline: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.mobile-filter__checkbox-visible_active {
+  background-image: url(../../images/done-icon-filter-mob.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mobile-filter__checkbox-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  
+  
+  color: #fff;
+  margin: 0;
+}

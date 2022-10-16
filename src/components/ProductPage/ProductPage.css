@@ -1,0 +1,226 @@
+.product__container {
+  width: 1200px;
+  margin: 20px auto;
+}
+
+.product {
+  width: 1200px;
+  margin: 80px auto 120px;
+  display: grid;
+  grid-template-columns: 52px 454px 108px 1fr;
+  grid-template-rows: 50px 72px 1fr 82px 60px;
+  position: relative;
+}
+
+/* .product__img {
+  width: 454px;
+  height: 500px;
+  object-fit: cover;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  border-radius: 8px;
+} */
+
+.product__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  
+  
+  color: #FFFFFF;
+  margin: 0;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.product__price {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+  
+  
+  color: #E5792B;
+  margin: 0;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.product__description {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  
+  
+  color: #FFFFFF;
+  margin: 0;
+  max-width: 580px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.product__counter {
+  width: 96px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  align-self: center;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  height: 41px;
+}
+
+.product__number {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height, or 130% */
+  
+  
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.product__number-btn {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.product__number-btn:hover {
+  opacity: .8;
+}
+
+.product__btn {
+  width: 218px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background: #E5792B;
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  justify-content: center;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.product__btn_disabled {
+  background: grey;
+  cursor: default;
+}
+
+.product__btn:hover {
+  opacity: .8;
+}
+
+.product__btn_disabled:hover {
+  opacity: 1;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .product__container {
+    width: 287px;
+    margin: 40px auto;
+  }
+  
+  .product {
+    width: 287px;
+    margin: 20px auto 80px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 70px 316px 100px 1fr;
+  }
+  
+  .product__img {
+    width: 231px;
+    height: 254px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    justify-self: center;
+  }
+  
+  .product__title {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  
+  .product__price {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  
+  .product__description {
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 280px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  
+  .product__counter {
+    width: 198px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 54px;
+    align-self: flex-start;
+    justify-self: center;
+  }
+  
+  .product__number {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  
+  .product__btn {
+    width: 287px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
