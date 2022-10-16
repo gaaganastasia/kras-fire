@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kras-fire/static/css/main.7c0e1691.css",
-    "main.js": "/kras-fire/static/js/main.808376b6.js",
+    "main.css": "/kras-fire/static/css/main.8e8aec16.css",
+    "main.js": "/kras-fire/static/js/main.5d36b321.js",
     "static/media/catalog-fireworks.png": "/kras-fire/static/media/catalog-fireworks.a97cc7c9b5bacb97b5ed.png",
     "static/media/Montserrat-BlackItalic.eot": "/kras-fire/static/media/Montserrat-BlackItalic.e885010b57eaa0bc6e3e.eot",
     "static/media/Montserrat-BlackItalic.ttf": "/kras-fire/static/media/Montserrat-BlackItalic.723da89da4f4081f6607.ttf",
@@ -57,7 +57,6 @@
     "static/media/Montserrat-Light.woff": "/kras-fire/static/media/Montserrat-Light.be142e6c3747b7b87e60.woff",
     "static/media/Montserrat-ExtraLight.woff": "/kras-fire/static/media/Montserrat-ExtraLight.b6e37b33963b08c1df34.woff",
     "static/media/Montserrat-Thin.woff": "/kras-fire/static/media/Montserrat-Thin.446ea183ab98a6fd08d6.woff",
-    "static/media/item-img.png": "/kras-fire/static/media/item-img.d722f87de715817bee97.png",
     "static/media/icon-discount.svg": "/kras-fire/static/media/icon-discount.17d5bd1d24896b8e94e5.svg",
     "static/media/icon-reset.svg": "/kras-fire/static/media/icon-reset.c6b3260dbaf0abcbfc04.svg",
     "static/media/cart.svg": "/kras-fire/static/media/cart.400f54deeeaa18a39ae6.svg",
@@ -71,15 +70,15 @@
     "static/media/arrow-left.svg": "/kras-fire/static/media/arrow-left.dbadf00ef79f0b2b3bbe.svg",
     "static/media/arrow-right-catalog.svg": "/kras-fire/static/media/arrow-right-catalog.18f1c57c2aded296df8b.svg",
     "index.html": "/kras-fire/index.html",
-    "static/media/search.svg": "/kras-fire/static/media/search.48efcadf3dcf034c7de1c754b1c0d6e4.svg",
+    "static/media/search.svg": "/kras-fire/static/media/search.48efcadf3dcf034c7de1.svg",
     "static/media/close-icon-mob.svg": "/kras-fire/static/media/close-icon-mob.ddf8f53b592ba1c44b7c.svg",
     "static/media/menu-icon.svg": "/kras-fire/static/media/menu-icon.29365541573430d70e3b.svg",
     "static/media/close-icon.svg": "/kras-fire/static/media/close-icon.5715024ffba9c98f0162.svg",
-    "main.7c0e1691.css.map": "/kras-fire/static/css/main.7c0e1691.css.map",
-    "main.808376b6.js.map": "/kras-fire/static/js/main.808376b6.js.map"
+    "main.8e8aec16.css.map": "/kras-fire/static/css/main.8e8aec16.css.map",
+    "main.5d36b321.js.map": "/kras-fire/static/js/main.5d36b321.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0e1691.css",
-    "static/js/main.808376b6.js"
+    "static/css/main.8e8aec16.css",
+    "static/js/main.5d36b321.js"
   ]
 }
