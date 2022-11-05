@@ -10,8 +10,9 @@
 }
 
 .footer__logo {
-  width: 92px;
-  height: 26px;
+  object-fit: contain;
+  width: 165px;
+  height: 33px;
   cursor: pointer;
   transition: .3s;
 }

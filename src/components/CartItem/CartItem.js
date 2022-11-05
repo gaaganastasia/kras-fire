@@ -23,7 +23,7 @@ function CartItem(props) {
     <div className="cart__item">
       <img className="cart__item-img" src={props.product.mainImageLink} alt="Фото товара"></img>
       <div className="cart__item-info">
-        <p className="cart__item-title">{`${props.product.category} «${props.product.name}»`}</p>
+        <p className="cart__item-title">{props.product.name}</p>
         {/* <p className="cart__item-description">Продолжительность 24 сек</p> */}
       </div>
       <div className="cart__item-counter">

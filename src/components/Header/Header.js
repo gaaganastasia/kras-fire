@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../images/logo.png";
+import logo from "../../images/logo.svg";
 import "./Header.css";
 import { Link, useRouteMatch } from 'react-router-dom'; 
 

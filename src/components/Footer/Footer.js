@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from '../../images/logo.png';
+import logo from '../../images/logo.svg';
 import { Link, useRouteMatch } from "react-router-dom";
 
 function Footer(props) {

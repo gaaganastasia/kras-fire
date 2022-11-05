@@ -15,7 +15,7 @@ function ProductCard(props) {
       </Link>
       <p className="catalog__item-price">{`${props.product.price} ₽`}</p>
       <div className="catalog__item-text">
-        <Link to={props.linkPath} className="catalog__item-title">{`${props.product.category} «${props.product.name}»`}</Link>
+        <Link to={props.linkPath} className="catalog__item-title">{props.product.name}</Link>
         {/* <p className="catalog__item-description">Продолжительность 24 сек</p> */}
       </div>
       {/* <div className="catalog__item-counter">
