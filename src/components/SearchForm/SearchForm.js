@@ -9,7 +9,11 @@ function SearchForm(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.history.push('/catalog');
+    props.submitSearchForm(productRef);
+  }
+
+  /*function handleSubmit(e) {
+    e.preventDefault();
 
     if (!productRef.current.value || productRef.current.value === " ") {
     } else {
@@ -27,7 +31,7 @@ function SearchForm(props) {
       }
       console.log(props.searchedProducts);
     }
-  }
+  }*/
 
   return (
     <div className="search-form">

@@ -31,7 +31,7 @@ function CartItem(props) {
         <p className="cart__item-number">{productQ}</p>
         <button type="button" onClick={handleIncreaseBtn} className="cart__item-number cart__item-number-btn">+</button>
       </div>
-      <p className="cart__item-price">{`${props.product.price * productQ} ₽`}</p>
+      <p className="cart__item-price">{`${props.product.discount ? props.product.price * (1 - (props.product.discount / 100)) * productQ : props.product.price * productQ} ₽`}</p>
       <div className="cart__item-reset" onClick={props.onRemove}></div>
     </div>
   );

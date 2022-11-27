@@ -21,6 +21,7 @@ function ProductsList(props) {
                   product={product}
                   key={i}
                   getProductState={props.getProductState}
+                  submitSearchForm={(v) => props.submitSearchForm(v)}
                   cartItems={props.cartItems}
                   onAdd={() => props.addProduct(product)}
                   setProductPageId={() => props.setProductPageId(product.id)}
@@ -36,6 +37,7 @@ function ProductsList(props) {
                 product={product}
                 key={i}
                 getProductState={props.getProductState}
+                submitSearchForm={(v) => props.submitSearchForm(v)}
                 cartItems={props.cartItems}
                 onAdd={() => props.addProduct(product)}
                 setProductPageId={() => props.setProductPageId(product.id)}

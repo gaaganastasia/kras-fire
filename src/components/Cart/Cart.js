@@ -21,7 +21,7 @@ function Cart(props) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    props.history.push('/confirmation');
+  
   }
   
 

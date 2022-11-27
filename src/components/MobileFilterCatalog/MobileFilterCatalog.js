@@ -19,28 +19,100 @@ function MobileFilterCatalog(props) {
             <input
               type="checkbox"
               className="mobile-filter__checkbox-container"
-              onClick={props.handleFireworksCheckboxState}
+              onClick={props.handleCat1CheckboxState}
             ></input>
-            <span className={`mobile-filter__checkbox-visible ${props.fireworksCheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
-            <p className="mobile-filter__checkbox-text">Фейерверки</p>
+            <span className={`mobile-filter__checkbox-visible ${props.cat1CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Дым</p>
           </label>
           <label className="mobile-filter__checkbox">
             <input
               type="checkbox"
               className="mobile-filter__checkbox-container"
-              onClick={props.handleFirecrackersCheckboxState}
+              onClick={props.handleCat2CheckboxState}
             ></input>
-            <span className={`mobile-filter__checkbox-visible ${props.firecrackersCheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <span className={`mobile-filter__checkbox-visible ${props.cat2CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Бенгальские свечи</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat3CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat3CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Хлопушки</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat4CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat4CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Батареи салютов</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat5CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat5CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Ракеты</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat6CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat6CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Фонтаны</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat7CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat7CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Летающие фейерверки</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat8CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat8CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Римские свечи</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat9CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat9CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
             <p className="mobile-filter__checkbox-text">Петарды</p>
           </label>
           <label className="mobile-filter__checkbox">
             <input
               type="checkbox"
               className="mobile-filter__checkbox-container"
-              onClick={props.handleSparklersCheckboxState}
+              onClick={props.handleCat10CheckboxState}
             ></input>
-            <span className={`mobile-filter__checkbox-visible ${props.sparklersCheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
-            <p className="mobile-filter__checkbox-text">Бенгальские огни</p>
+            <span className={`mobile-filter__checkbox-visible ${props.cat10CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Наземные фейерверки</p>
+          </label>
+          <label className="mobile-filter__checkbox">
+            <input
+              type="checkbox"
+              className="mobile-filter__checkbox-container"
+              onClick={props.handleCat11CheckboxState}
+            ></input>
+            <span className={`mobile-filter__checkbox-visible ${props.cat11CheckboxState ? `mobile-filter__checkbox-visible_active` : ``}`}></span>
+            <p className="mobile-filter__checkbox-text">Фестивальные шары</p>
           </label>
           </div>
         </div>

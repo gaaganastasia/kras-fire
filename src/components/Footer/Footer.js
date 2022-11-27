@@ -7,7 +7,10 @@ function Footer(props) {
   const { path, url } = useRouteMatch();
 
   const footerClassName = `footer ${
-    props.history.location.pathname === "/cart" || props.history.location.pathname === "/confirmation" ?
+    props.history.location.pathname === "/cart" || 
+    props.history.location.pathname === "/confirmation" || 
+    props.history.location.pathname === "/login" || 
+    props.history.location.pathname === "/add-product" ?
     `footer_hidden` :
     ``
   }`

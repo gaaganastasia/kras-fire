@@ -18,7 +18,7 @@
 .header__logo {
   width: 165px;
   height: 33px;
-  object-fit: cover;
+  object-fit: contain;
   cursor: pointer;
   transition: .3s;
 }

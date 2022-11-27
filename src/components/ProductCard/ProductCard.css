@@ -13,6 +13,8 @@
   height: 278px;
   cursor: pointer;
   transition: .3s;
+  background-color: #fff;
+  object-fit: contain;
 }
 
 .catalog__item-img:hover {
@@ -31,6 +33,49 @@
   justify-self: center;
 }
 
+.catalog__item-price-block {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin: 0 0 0 12px;
+  align-self: center;
+  display: flex;
+  gap: 10px;
+}
+
+.catalog__item-old-price {
+  position: relative;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalog__item-old-price_visible {
+  display: flex;
+}
+
+.catalog__item-old-price-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  color: #777575;
+  margin: 0;
+
+}
+
+.catalog__item-old-price-line {
+  width: 120%;
+  background-color: #777575;
+  height: 1px;
+  position: absolute;
+  left: -10%;
+}
+
 .catalog__item-price {
   font-family: 'Montserrat';
   font-style: normal;
@@ -41,12 +86,6 @@
   
   
   color: #E5792B;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  margin: 0 0 0 12px;
-  align-self: center;
 }
 
 .catalog__item-text {

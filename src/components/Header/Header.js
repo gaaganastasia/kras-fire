@@ -7,7 +7,10 @@ function Header(props) {
   const { path, url } = useRouteMatch();
   
   const headerClassName = `header ${ 
-    props.history.location.pathname === "/cart" || props.history.location.pathname === "/confirmation" ?
+    props.history.location.pathname === "/cart" || 
+    props.history.location.pathname === "/confirmation" || 
+    props.history.location.pathname === "/login" || 
+    props.history.location.pathname === "/add-product" ?
     `header_hidden` :
     ``
 }`

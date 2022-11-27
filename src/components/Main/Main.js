@@ -7,7 +7,7 @@ function Main(props) {
 
   return (
     <div className="main">
-      <SearchForm cartItems={props.cartItems} history={props.history} ></SearchForm>
+      <SearchForm cartItems={props.cartItems} history={props.history} submitSearchForm={(v) => props.submitSearchForm(v)} ></SearchForm>
       <section className="main__catalog">
         <h1 className="main__catalog-title">Каталог</h1>
         <div className="main__catalog-section main__catalog-section_fireworks">

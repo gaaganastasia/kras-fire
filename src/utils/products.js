@@ -5,17 +5,14 @@ export const fireworks = [
     "category": "Дым",
     "partNumber": "МА0511 White",
     "description": "Дым белый 0,8\" 60сек. h-125мм. МА0511 White (Можно держать в руках). Есть идея для фотосессии на воздухе? Если Вы хотите сделать красивую фотосессию с цветными дымами, то выбирайте именно этот минутный цветной дым. За 60 секунд дымления у фотографа будет достаточно времени настроить фокус и выбрать наилучший ракурс для съемки.",
-    "price": 350,
+    "price": 35000,
+    "discount": 10,
     "videoLink":"https://www.youtube.com/watch?v=EFH8L20EbAo",
-    "mainImageLink": "",
+    "mainImageLink": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album",
     "image": [
       {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
+        "id": 1,
+        "url": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album"
       }
     ]
   },
@@ -27,17 +24,7 @@ export const fireworks = [
     "description": "Дым зеленый 0,8\" 60сек. h-125мм. МА0511 Green (Можно держать в руках). Есть идея для фотосессии на воздухе? Если Вы хотите сделать красивую фотосессию с цветными дымами, то выбирайте именно этот минутный цветной дым. За 60 секунд дымления у фотографа будет достаточно времени настроить фокус и выбрать наилучший ракурс для съемки.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=Y38PQf33n0U",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/2.1.jpg"
   },
   {
     "id": 3,
@@ -47,17 +34,7 @@ export const fireworks = [
     "description": "Дым красный 0,8\" 60сек. h-125мм. МА0511 Red (Можно держать в руках). Есть идея для фотосессии на воздухе? Если Вы хотите сделать красивую фотосессию с цветными дымами, то выбирайте именно этот минутный цветной дым. За 60 секунд дымления у фотографа будет достаточно времени настроить фокус и выбрать наилучший ракурс для съемки.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=EFH8L20EbAo&t=2s",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album"
   },
   {
     "id": 4,
@@ -67,17 +44,7 @@ export const fireworks = [
     "description": "Дым синий 0,8\" 60сек. h-125мм. МА0511 Blue (Можно держать в руках). Есть идея для фотосессии на воздухе? Если Вы хотите сделать красивую фотосессию с цветными дымами, то выбирайте именно этот минутный цветной дым. За 60 секунд дымления у фотографа будет достаточно времени настроить фокус и выбрать наилучший ракурс для съемки.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=EFH8L20EbAo&t=2s",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/4.1.jpg"
   },
   {
     "id": 5,
@@ -87,17 +54,7 @@ export const fireworks = [
     "description": "Дым фиолетовый 0,8\" 60сек. h-125мм. МА0511 Purple (Можно держать в руках). Есть идея для фотосессии на воздухе? Если Вы хотите сделать красивую фотосессию с цветными дымами, то выбирайте именно этот минутный цветной дым. За 60 секунд дымления у фотографа будет достаточно времени настроить фокус и выбрать наилучший ракурс для съемки.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=EFH8L20EbAo&t=2s",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/5.1.png"
   },
   {
     "id": 6,
@@ -107,17 +64,7 @@ export const fireworks = [
     "description": "Бенгальские свечи 210мм (6 штук) 1/200/6 ТР156. В упаковке 6 стандартных бенгальских огней длиной 21 см каждый. Разлетающиеся сверкающие искры будут дарить Вам радость на протяжении 35 секунд.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=qpoWIAJuI94",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/6.1.jpg"
   },
   {
     "id": 7,
@@ -127,17 +74,7 @@ export const fireworks = [
     "description": "Бенгальские свечи 400мм (3 штуки) 1/50/3 ТР151. В упаковке 3 бенгальских свечи размером 40 см каждая. Разлетающиеся сверкающие искры будут радовать Вас на протяжении трех минут.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=nK4idBrrj2Y",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/7.1.jpg"
   },
   {
     "id": 8,
@@ -147,17 +84,7 @@ export const fireworks = [
     "description": "Бенгальские свечи 600мм (3 штуки) 1/20/3 ТР154. В упаковке 3 самых больших бенгальских огня длиной 60 см каждый. Разлетающиеся сверкающие искры будут дарить Вам радость на протяжении четырех минут.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=D9zFOFXMV24",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/8.1.jpg"
   },
   {
     "id": 9,
@@ -167,17 +94,7 @@ export const fireworks = [
     "description": "Хлопушка «Супер» с серпантином (1 штука) 1/150/3 ТР108. Эффекты: хлопок, конфетти, серпантин.",
     "price": 350,
     "videoLink":"https://www.youtube.com/watch?v=VfZh-0f44Ck",
-    "mainImageLink": "",
-    "image": [
-      {
-        "id":1,
-        "url":""
-      },
-      {
-        "id":2,
-        "url":""
-      }
-    ]
+    "mainImageLink": "../../images/products/9.1.jpg"
   },
   {
     "id": 10,
@@ -1180,3 +1097,125 @@ export const fireworks = [
     ]
   },
 ];
+
+
+
+
+// export const fireworks = [
+//   {
+//     "id": 1,
+//     "name": "Балет",
+//     "category": "Фейерверк",
+//     "duration": 24,
+//     "description": "Небольшой, но очень интересный фейерверк. Начинается искрящим фонтаном, после которого следуют яркие вспышки залпов салюта. Незабываемые 24 секунд впечатляющего пиротехнического шоу!",
+//     "price": 350,
+//     "manufacturer": "Мегапир",
+//     "videoLink":"https://www.youtube.com/watch?v=UXcqcdYABFw",
+//     "mainImageLink": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album",
+//     "image": [
+//       {
+//         "id":1,
+//         "url":"https://sun9-79.userapi.com/impg/AZXSVHgw16UrWIVoh2HDnOcHNqXHPOgzRe01jw/sn_yZAEuH6k.jpg?size=564x786&quality=96&sign=eac258c1619efe4111254ec83eeddd47&type=album"
+//       },
+//       {
+//         "id":2,
+//         "url":"https://sun9-4.userapi.com/impg/X2FSNBBiaCgCDkAfsp085Hdw-iWC3fBWQgzYeQ/6dfyUdGgTqU.jpg?size=402x440&quality=95&sign=daed09d567321c68f5a15d9c804f9fbd&type=album"
+//       },
+//       {
+//         "id":3,
+//         "url":"https://sun9-20.userapi.com/impg/zaDzvd4APb36rUx5g5-k3JQ69dOQJa722HOHAA/JERWkoEd8xY.jpg?size=476x750&quality=95&sign=a02586187b21b2e0ff25533af3becaac&type=album"
+//       },
+//       {
+//         "id":4,
+//         "url":"https://sun9-88.userapi.com/impg/njRXkZNQNYm8bJI_kgnOLNXqkex5hL8J8OybOA/w3oLPpR9FqI.jpg?size=748x762&quality=95&sign=32c1d81502a8c55a049c2fb23077dff8&type=album"
+//       }
+//     ]
+//   },
+//   {
+//     "id": 2,
+//     "name": "Вог",
+//     "category": "Фейерверк",
+//     "duration": 12,
+//     "description": "Небольшой фейерверк на 7 зарядов, легко украсит ваш праздник. Высота полета зарядов около 25 метров. сравнима с 9 этажным домом. В эффектах вы увидете серебряные георгины с зелеными и красными звездами в золотом треске. На финал - золотое трещащее облако.",
+//     "price": 910,
+//     "manufacturer": "БаБах",
+//     "videoLink":"https://www.youtube.com/watch?v=UXcqcdYABFw",
+//     "mainImageLink": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album",
+//     "image": [
+//       {
+//         "id":1,
+//         "url":"https://sun9-79.userapi.com/impg/AZXSVHgw16UrWIVoh2HDnOcHNqXHPOgzRe01jw/sn_yZAEuH6k.jpg?size=564x786&quality=96&sign=eac258c1619efe4111254ec83eeddd47&type=album"
+//       },
+//       {
+//         "id":2,
+//         "url":"https://sun9-4.userapi.com/impg/X2FSNBBiaCgCDkAfsp085Hdw-iWC3fBWQgzYeQ/6dfyUdGgTqU.jpg?size=402x440&quality=95&sign=daed09d567321c68f5a15d9c804f9fbd&type=album"
+//       },
+//       {
+//         "id":3,
+//         "url":"https://sun9-20.userapi.com/impg/zaDzvd4APb36rUx5g5-k3JQ69dOQJa722HOHAA/JERWkoEd8xY.jpg?size=476x750&quality=95&sign=a02586187b21b2e0ff25533af3becaac&type=album"
+//       },
+//       {
+//         "id":4,
+//         "url":"https://sun9-88.userapi.com/impg/njRXkZNQNYm8bJI_kgnOLNXqkex5hL8J8OybOA/w3oLPpR9FqI.jpg?size=748x762&quality=95&sign=32c1d81502a8c55a049c2fb23077dff8&type=album"
+//       }
+//     ]
+//   },
+//   {
+//     "id": 3,
+//     "name": "Черная дробь",
+//     "category": "Петарды",
+//     "duration": 1,
+//     "description": "Терочные петарды «Черная дробь». Эффект: 1 хлопок. Количество в упаковке 60 штук, стоимость указана за упаковку.",
+//     "price": 95,
+//     "manufacturer": "Мегапир",
+//     "videoLink":"https://www.youtube.com/watch?v=UXcqcdYABFw",
+//     "mainImageLink": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album",
+//     "image": [
+//       {
+//         "id":1,
+//         "url":"https://sun9-79.userapi.com/impg/AZXSVHgw16UrWIVoh2HDnOcHNqXHPOgzRe01jw/sn_yZAEuH6k.jpg?size=564x786&quality=96&sign=eac258c1619efe4111254ec83eeddd47&type=album"
+//       },
+//       {
+//         "id":2,
+//         "url":"https://sun9-4.userapi.com/impg/X2FSNBBiaCgCDkAfsp085Hdw-iWC3fBWQgzYeQ/6dfyUdGgTqU.jpg?size=402x440&quality=95&sign=daed09d567321c68f5a15d9c804f9fbd&type=album"
+//       },
+//       {
+//         "id":3,
+//         "url":"https://sun9-20.userapi.com/impg/zaDzvd4APb36rUx5g5-k3JQ69dOQJa722HOHAA/JERWkoEd8xY.jpg?size=476x750&quality=95&sign=a02586187b21b2e0ff25533af3becaac&type=album"
+//       },
+//       {
+//         "id":4,
+//         "url":"https://sun9-88.userapi.com/impg/njRXkZNQNYm8bJI_kgnOLNXqkex5hL8J8OybOA/w3oLPpR9FqI.jpg?size=748x762&quality=95&sign=32c1d81502a8c55a049c2fb23077dff8&type=album"
+//       }
+//     ]
+//   },
+//   {
+//     "id": 4,
+//     "name": "Корсар",
+//     "category": "Дым",
+//     "duration": 1,
+//     "description": "Терочные петарды «Корсар». Эффект: 1 хлопок. Количество в упаковке 50 штук, стоимость указана за упаковку.",
+//     "price": 110,
+//     "manufacturer": "Joker Fireworks",
+//     "videoLink":"https://www.youtube.com/watch?v=UXcqcdYABFw",
+//     "mainImageLink": "https://sun9-87.userapi.com/impg/Gz09E853c11bian6TpQrc5LkA_T-7TJKdnTU1A/gS9yuPf5qEg.jpg?size=1125x1244&quality=96&sign=92bb9ac4b452a8fa9d0b1b7797f9f258&type=album",
+//     "image": [
+//       {
+//         "id":1,
+//         "url":"https://sun9-79.userapi.com/impg/AZXSVHgw16UrWIVoh2HDnOcHNqXHPOgzRe01jw/sn_yZAEuH6k.jpg?size=564x786&quality=96&sign=eac258c1619efe4111254ec83eeddd47&type=album"
+//       },
+//       {
+//         "id":2,
+//         "url":"https://sun9-4.userapi.com/impg/X2FSNBBiaCgCDkAfsp085Hdw-iWC3fBWQgzYeQ/6dfyUdGgTqU.jpg?size=402x440&quality=95&sign=daed09d567321c68f5a15d9c804f9fbd&type=album"
+//       },
+//       {
+//         "id":3,
+//         "url":"https://sun9-20.userapi.com/impg/zaDzvd4APb36rUx5g5-k3JQ69dOQJa722HOHAA/JERWkoEd8xY.jpg?size=476x750&quality=95&sign=a02586187b21b2e0ff25533af3becaac&type=album"
+//       },
+//       {
+//         "id":4,
+//         "url":"https://sun9-88.userapi.com/impg/njRXkZNQNYm8bJI_kgnOLNXqkex5hL8J8OybOA/w3oLPpR9FqI.jpg?size=748x762&quality=95&sign=32c1d81502a8c55a049c2fb23077dff8&type=album"
+//       }
+//     ]
+//   }
+// ];

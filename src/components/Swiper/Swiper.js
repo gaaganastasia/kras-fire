@@ -19,18 +19,16 @@ function Swiper(props) {
 
   return (
     <>
-      {props.product.videoLink || props.product.photo ? 
+      {props.product.videoLink || props.product.image ? 
         <Carousel>
           {
-            props.product.mainImageLink ?
+            props.product.mainImageLink &&
             <Slide right>
               <img alt="Фото товара" src={props.product.mainImageLink} className="swiper__img"></img>
             </Slide>
-            :
-            {}
           }
           {
-            props.product.image && props.product.image.length !== 0 ?
+            (props.product.image && props.product.image.length !== 0) &&
             props.product.image.map((photo, i) => {
               return (
                 <Slide key={i} right>
@@ -38,16 +36,12 @@ function Swiper(props) {
                 </Slide>
               );
             })
-            :
-            {}
           }
           {
-            props.product.videoLink ?
+            props.product.videoLink &&
             <Slide right>
               <a target="_blank" href={props.product.videoLink} className="swiper__video-link"></a>
             </Slide>
-            :
-            {}
           }
         </Carousel>
         :
